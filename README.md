@@ -1,7 +1,9 @@
 # data_visualization_python_sql__project_practice documentation
+
 Beginning Data Analysis practice project using matplotlib and seaborn and a self made plotting package and writing queries in sqlite3 
 
 ## Challenge Part1
+
 For this project, I need to consider data from what is called “Subjective Metrics”, which are
 mood, stress, rumination, and sleep tracking. In our iOS and Android apps, we ask users to rate
 these four elements on a float scale of 0-4 , with 0 being negative and 4 being positive.
@@ -35,9 +37,8 @@ Draw insights and assumption I made about the data...
 Write SQL for the given questions:
 
 1. How many users completed an exercise in their first month per monthly cohort?
-Assume you have two tables in our company’s database:
-● 'users' table, with columns 'user_id', 'created_at'
-● ‘exercises’ table, with columns 'exercise_id', 'user_id', 'exercise_completion_date'
+Assume you have two tables in our company’s database:'users' table, with columns 'user_id', 'created_at';
+‘exercises’ table, with columns 'exercise_id', 'user_id', 'exercise_completion_date'
 
 Write a single SQL query that breaks up the users based on the month that they signed up (their
 cohort month), and determines the percentage of users that have a completed exercise in their
@@ -46,9 +47,8 @@ an exercise in their first month, 2018 February cohort has x% of users completin
 their first month, etc.)
 
 2. Which organizations have the most severe patient population?
-Assume you have two tables in our company’s database:
-● ‘Providers’ table that contains ‘provider_id’, ‘organization_id’, and ‘organization_name’
-● ‘Phq9’ table that contains ‘patient_id’,’provider_id’, ‘score’,’datetime_created’
+Assume you have two tables in our company’s database: ‘Providers’ table that contains ‘provider_id’, ‘organization_id’, and ‘organization_name’; ‘Phq9’ table that contains ‘patient_id’,’provider_id’, ‘score’,’datetime_created’
+
 For context, A phq score ranges from 0-27 and anything 20 or above is considered severe.
 
 Write a single query that finds the top five organizations that have the highest average phq9
